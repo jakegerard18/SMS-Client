@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: blueviolet;
+    height: 100vh;
+}
+
+.container {
+    margin: auto;
+    height: 100%;
+    background: white;
+    padding: 50px;
+}
+
+.container #recipientPhoneNumber:focus,
+.container #message:focus {
+    outline: none;
+    border: 1px solid blueviolet;
+}
+
+.container #submit-btn:hover {
+    background: blueviolet;
+    color: white;
+}
